@@ -1,0 +1,49 @@
+/*
+*時計 Start
+*/
+/* Google Fonts 読み込み */
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+/* 全体を囲うコンテナー */
+.body-clock {
+  padding-top: 10%;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+/* 時計の共通スタイル */
+.clock {
+  font-family:"Helvetica Neue";
+  color:black;
+  text-shadow: 0 0 20px rgba(0,0,0,0.7);;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* 日付のスタイル */
+.clock-date {
+  font-size: 25px;
+}
+
+/* 時間のスタイル */
+.clock-time {
+  font-size: 100px;
+}
+
+/* 文字サイズ調整 */
+@media screen and (max-width: 500px) {
+  .clock-date {
+    font-size: 5vw;
+  }
+  .clock-time {
+    font-size: 20vw;
+  }
+}
+/*
+*時計 End
+*/

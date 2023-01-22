@@ -1,0 +1,10 @@
+/* エクスポートボタン */
+.export{
+    margin-top: 15px;
+    margin-bottom: -10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.export form{
+    padding-left: 10px;
+}

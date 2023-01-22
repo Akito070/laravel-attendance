@@ -1,0 +1,17 @@
+/*
+*勤怠管理ボタン Start
+*/
+h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div.container.text-center form{
+    display: inline-block;
+    width: 35%;
+}
+/*
+*勤怠管理ボタン End
+*/
+
+

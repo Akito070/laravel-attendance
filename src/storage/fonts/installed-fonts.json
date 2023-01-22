@@ -1,0 +1,9 @@
+{
+    "ipaexg": {
+        "normal": "\/var\/www\/storage\/fonts\/ipaexg_normal_77eae354a338d68ff56ce5986965ec33",
+        "bold": "ipaexg_bold_77eae354a338d68ff56ce5986965ec33"
+    },
+    "nunito": {
+        "normal": "nunito_normal_586f3f8a461df5c8635a870033365d5e"
+    }
+}

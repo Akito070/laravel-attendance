@@ -1,0 +1,48 @@
+/*カレンダーのボタン start*/
+
+div.top{
+    display: flex;
+    align-items: center;
+}
+
+div.calendarButton{
+    width: 85%;
+    display: flex;
+}
+
+.calendarButton .form-select-sm{
+    width: 35%;
+    text-align: center;
+    border-radius: 0%;
+}
+
+.calendarButton .form-control{
+    width:35%;
+    text-align: center;
+    border-radius: 0%;
+}
+
+.calendarButton .btn-dark-left{
+    border-radius: 15% 0% 0% 15%;
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+.calendarButton .btn-dark-right{
+    border-radius: 0% 15% 15% 0%;
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;    
+}
+.btn-dark-left:hover {
+    color:rgba(255,255,255,0.5);
+    background-color: #1c1f23;
+    border-color: #1a1e21;
+}
+.btn-dark-right:hover {
+    color:rgba(255,255,255,0.5);
+    background-color: #1c1f23;
+    border-color: #1a1e21;
+  }
+
+/*カレンダーのボタン end*/

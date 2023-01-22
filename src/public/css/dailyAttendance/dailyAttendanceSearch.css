@@ -1,0 +1,11 @@
+.search{
+    display: flex;
+    justify-content: flex-end;
+}
+.search .btn-dark {
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+    width: 170px;
+    
+}
